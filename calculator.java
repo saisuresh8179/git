@@ -10,6 +10,14 @@ public class Operations
     {
         return (a-b);
     }
+    int mul(int a,int b)
+    {
+        return (a*b);
+    }
+    int div(int a, int b)
+    {
+        return (a/b);
+    }
 }
 public class Calculator
 {
@@ -21,5 +29,7 @@ public class Calculator
         Operations o=new Operations();
         System.out.println(o.add(a,b));
         System.out.println(o.sub(a,b));
+        System.out.println(o.mul(a,b));
+        System.out.println(o.div(a,b));
     }
 }
