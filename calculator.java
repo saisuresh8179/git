@@ -27,9 +27,6 @@ public class Calculator
         int a=sc.nextInt();
         int b=sc.nextInt();
         Operations o=new Operations();
-        System.out.println(o.add(a,b));
-        System.out.println(o.sub(a,b));
-        System.out.println(o.mul(a,b));
-        System.out.println(o.div(a,b));
+        
     }
 }
